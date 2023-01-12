@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Generic Terms
-nav_order: 2
-has_children: true
+parent: Introduction
+has_toc: true
 ---
 
 ## Generic Terms
