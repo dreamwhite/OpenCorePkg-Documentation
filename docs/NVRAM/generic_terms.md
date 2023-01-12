@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Generic Terms
-parent: Introduction
+parent: NVRAM
 has_toc: true
 ---
 

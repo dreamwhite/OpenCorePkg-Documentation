@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Introduction
+title: Booter
 nav_order: 5
 has_children: true
 ---

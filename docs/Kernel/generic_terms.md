@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Generic Terms
-parent: Introduction
+parent: Kernel
 has_toc: true
 ---
 

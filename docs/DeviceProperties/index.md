@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Introduction
+title: DeviceProperties
 nav_order: 6
 has_children: true
 ---

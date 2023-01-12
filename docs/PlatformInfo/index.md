@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Introduction
+title: PlatformInfo
 nav_order: 10
 has_children: true
 ---

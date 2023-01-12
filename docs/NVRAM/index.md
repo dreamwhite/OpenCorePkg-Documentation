@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Introduction
+title: NVRAM
 nav_order: 9
 has_children: true
 ---

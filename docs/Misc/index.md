@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Introduction
+title: Misc
 nav_order: 8
 has_children: true
 ---
