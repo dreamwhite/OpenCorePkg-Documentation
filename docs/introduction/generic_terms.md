@@ -5,7 +5,15 @@ parent: Introduction
 has_toc: true
 ---
 
+# Navigation Structure
+{: .no_toc }
+
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
 {:toc}
+
 ## Generic Terms
 
 1.1 Generic Terms
