@@ -2,6 +2,8 @@
 layout: default
 title: Directory Structure
 parent: Setup
+nav_order: 1
+parent: Setup
 ---
 # Directory Structure
 
