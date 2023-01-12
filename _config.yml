@@ -5,4 +5,4 @@ theme: just-the-docs
 url: https://dreamwhite.github.io/OpenCorePkg-Docs
 
 aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+  Original Configuration.pdf: https://github.com/acidanthera/OpenCorePkg/blob/master/Docs/Configuration.pdf
