@@ -5,6 +5,7 @@ parent: Introduction
 has_toc: true
 ---
 
+{:toc}
 ## Generic Terms
 
 1.1 Generic Terms
