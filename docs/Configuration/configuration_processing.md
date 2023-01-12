@@ -1,8 +1,7 @@
 ---
 layout: default
-title: Configuration Terms
+title: Configuration Processing
 nav_order: 1
-has_children: true
 parent: Configuration
 ---
 

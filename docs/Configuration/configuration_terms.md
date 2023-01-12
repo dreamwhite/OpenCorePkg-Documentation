@@ -2,7 +2,6 @@
 layout: default
 title: Configuration Terms
 nav_order: 2
-has_children: true
 parent: Configuration
 ---
 

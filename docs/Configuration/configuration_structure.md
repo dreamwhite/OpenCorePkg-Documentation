@@ -2,7 +2,6 @@
 layout: default
 title: Configuration Structure
 parent: Configuration
-has_toc: true
 nav_order: 3
 ---
 
