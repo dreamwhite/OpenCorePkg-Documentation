@@ -1,8 +1,9 @@
 ---
 layout: default
-title: Configuration
+title: Configuration Terms
 nav_order: 2
 has_children: true
+parent: Configuration
 ---
 
 # Introduction
@@ -11,6 +12,7 @@ has_children: true
 
 1. TOC
 {:toc}
+
 ## Configuration Terms
 
 - `OC config` — OpenCore Configuration file in `plist` format named `config.plist`. It provides an extensible way to configure OpenCore and is structured to be separated into multiple named sections situated under the root `plist dictionary`. These sections may have `plist array` or `plist dictionary` types and are described in corresponding sections of this document.

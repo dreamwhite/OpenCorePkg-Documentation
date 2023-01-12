@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Generic Terms
+title: Dire
 parent: Setup
 has_toc: true
 ---
