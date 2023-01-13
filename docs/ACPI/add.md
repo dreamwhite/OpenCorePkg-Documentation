@@ -2,6 +2,7 @@
 layout: default
 title: Add
 nav_order: 3
+parent: ACPI
 ---
 
 # Add

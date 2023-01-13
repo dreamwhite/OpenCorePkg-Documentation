@@ -2,6 +2,7 @@
 layout: default
 title: Patch
 nav_order: 5
+parent: ACPI
 ---
 
 # Patch

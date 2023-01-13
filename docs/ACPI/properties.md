@@ -2,6 +2,7 @@
 layout: default
 title: Properties
 nav_order: 2
+parent: ACPI
 ---
 
 # Properties

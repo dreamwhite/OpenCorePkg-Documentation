@@ -2,6 +2,7 @@
 layout: default
 title: Delete
 nav_order: 4
+parent: ACPI
 ---
 
 # Delete

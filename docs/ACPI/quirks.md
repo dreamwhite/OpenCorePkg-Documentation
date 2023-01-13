@@ -2,6 +2,7 @@
 layout: default
 title: Quirks
 nav_order: 6
+parent: ACPI
 ---
 
 # Quirks
