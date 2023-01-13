@@ -26,7 +26,7 @@ nav_order: 5
     
     With this value set and `SecureBootModel` valid (and not `Disabled`), it is possible to achieve [Full Security](https://support.apple.com/en-us/HT208330) of Apple Secure Boot.
     
-    To start using personalised Apple Secure Boot, the operating system must be reinstalled or personalised. Until the operating system is personalised, only macOS DMG recovery can be loaded. In cases where DMG recovery is missing, it can be downloaded by using the `macrecovery` utility and saved in `com.apple.recovery.boot` as explained in the Tips and Tricks section. Note that [DMG loading]({%link docs/Misc/security.md}) needs to be set to `Signed` to use any DMG with Apple Secure Boot.
+    To start using personalised Apple Secure Boot, the operating system must be reinstalled or personalised. Until the operating system is personalised, only macOS DMG recovery can be loaded. In cases where DMG recovery is missing, it can be downloaded by using the `macrecovery` utility and saved in `com.apple.recovery.boot` as explained in the Tips and Tricks section. Note that [DMG loading]({%link docs/Misc/security.md %}) needs to be set to `Signed` to use any DMG with Apple Secure Boot.
     
     To personalise an existing operating system, use the bless command after loading to macOS DMG recovery. Mount the system volume partition, unless it has already been mounted, and execute the following command:
     
@@ -272,4 +272,4 @@ nav_order: 5
     
     When this happens, either reinstall the operating system or copy the manifests (files with `.im4m` extension, such as `boot.efi.j137.im4m`) from `/usr/standalone/i386` to `/Volumes/Preboot/<UUID>/System/Library/CoreServices`. Here, `<UUID>` is the system volume identifier. On HFS+ installations, the manifests should be copied to `/System/Library/CoreServices` on the system volume.
 
-    For more details on how to configure Apple Secure Boot with UEFI Secure Boot, refer to the [UEFI Secure Boot]({%link docs/troubleshooting/uefi_and_secure_boot.md%}) section.
+    For more details on how to configure Apple Secure Boot with UEFI Secure Boot, refer to the [UEFI Secure Boot]({%link docs/troubleshooting/uefi_and_secure_boot.md %}) section.
