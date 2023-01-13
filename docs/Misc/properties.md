@@ -50,6 +50,6 @@ nav_order: 2
     - **Failsafe:** Empty
     - **Description:** Add tool entries to the OpenCore picker.
     
-    To be filled with `plist dict` values, describing each load entry. Refer to the [Entry Properties]({%link docs/Misc/entry.md}) section below for details.
+    To be filled with `plist dict` values, describing each load entry. Refer to the [Entry Properties]({%link docs/Misc/entry.md %}) section below for details.
 
     _Note:_ Certain UEFI tools, such as UEFI Shell, can be very dangerous and **MUST NOT** appear in production configurations, paticularly in vaulted configurations as well as those protected by secure boot, as such tools can be used to bypass the secure boot chain. Refer to the [UEFI]({%link docs/UEFI/tools_and_applications.md %}) section for examples of UEFI tools.
