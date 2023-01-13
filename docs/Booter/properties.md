@@ -10,7 +10,7 @@ nav_order: 2
 1. `MmioWhitelist`
     - **Type:** `plist array`
     - **Failsafe:** Empty
-    - **Description:** To be filled with `plist dict` values, describing addresses critical for particular firmware functioning when DevirtualiseMmio quirk is in use. Refer to the [MmioWhitelist Properties]({{ site.baseurl }}{% link mmiowhitelist.md %}) section below for details.
+    - **Description:** To be filled with `plist dict` values, describing addresses critical for particular firmware functioning when DevirtualiseMmio quirk is in use. Refer to the [MmioWhitelist Properties]({% link mmiowhitelist.md %}) section below for details.
 
 2. `Patch`
     - **Type:** `plist array`
