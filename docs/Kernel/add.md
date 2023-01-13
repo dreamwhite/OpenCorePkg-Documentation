@@ -70,7 +70,7 @@ nav_order: 3
     - **Failsafe:** Empty
     - **Description:** Adds kernel extension on specified macOS version or newer.
     
-    _Note:_ Refer to the [Add MaxKernel]({%link docs/Kernel/add.md}) description for matching logic.
+    _Note:_ Refer to the [Add MaxKernel]({%link docs/Kernel/add.md %}) description for matching logic.
 
 8. `PlistPath`
     - **Type:** `plist string`

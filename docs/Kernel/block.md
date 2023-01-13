@@ -32,7 +32,7 @@ nav_order: 4
     - **Failsafe:** Empty
     - **Description:** Blocks kernel extension on specified macOS version or older.
 
-    _Note:_ Refer to the [Add MaxKernel]({%link docs/Kernel/add.md}) description for matching logic.
+    _Note:_ Refer to the [Add MaxKernel]({%link docs/Kernel/add.md %}) description for matching logic.
 
 6. `MinKernel`
     - **Type:** `plist string`

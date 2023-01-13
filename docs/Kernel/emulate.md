@@ -70,11 +70,11 @@ nav_order: 5
     - **Failsafe:** Empty
     - **Description:** Emulates CPUID and applies `DummyPowerManagement` on specified macOS version or older.
     
-    _Note:_ Refer to the [Add MaxKernel]({%link docs/Kernel/add.md}) description for matching logic.
+    _Note:_ Refer to the [Add MaxKernel]({%link docs/Kernel/add.md %}) description for matching logic.
 
 5. `MinKernel`
     - **Type:** `plist string`
     - **Failsafe:** Empty
     - **Description:** Emulates CPUID and applies `DummyPowerManagement` on specified macOS version or newer.
     
-    _Note:_ Refer to the [Add MaxKernel]({%link docs/Kernel/add.md}) description for matching logic.
+    _Note:_ Refer to the [Add MaxKernel]({%link docs/Kernel/add.md %}) description for matching logic.

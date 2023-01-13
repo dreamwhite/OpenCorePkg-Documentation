@@ -141,7 +141,7 @@ nav_order: 8
     
     _Note 2:_ While this patch should enable ethernet support for all Aquantia AQtion series, it has only been tested on AQC-107s based 10GbE network cards.
     
-    _Note 3:_ To address `AppleVTD` incompatibilities after applying this quirk, the Reserved Memory Region section of the corresponding device in the `DMAR` ACPI table might be removed. This table should be disassembled and edited, then recompiled to `AML` with tool `iASL`. For the patched `DMAR` table to be [added]({%link docs/ACPI/add.md}), the original one should be [deleted]({%link docs/ACPI/delete.md}). More details can be found at [comment on commit 2441455](https://github.com/acidanthera/OpenCorePkg/commit/24414555f2c07e06a3674ec7a2aa1ce4860bbcc7#commitcomment-70530145).
+    _Note 3:_ To address `AppleVTD` incompatibilities after applying this quirk, the Reserved Memory Region section of the corresponding device in the `DMAR` ACPI table might be removed. This table should be disassembled and edited, then recompiled to `AML` with tool `iASL`. For the patched `DMAR` table to be [added]({%link docs/ACPI/add.md %}), the original one should be [deleted]({%link docs/ACPI/delete.md %}). More details can be found at [comment on commit 2441455](https://github.com/acidanthera/OpenCorePkg/commit/24414555f2c07e06a3674ec7a2aa1ce4860bbcc7#commitcomment-70530145).
 
 13. `ForceSecureBootScheme`
     - **Type:** `plist boolean`

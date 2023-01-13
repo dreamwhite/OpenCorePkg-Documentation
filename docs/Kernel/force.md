@@ -42,14 +42,14 @@ nav_order: 6
     - **Failsafe:** Empty
     - **Description:** Adds kernel extension on specified macOS version or older.
     
-    Note: Refer to the [Add MaxKernel]({%link docs/Kernel/add.md}) description for matching logic.
+    Note: Refer to the [Add MaxKernel]({%link docs/Kernel/add.md %}) description for matching logic.
 
 8. `MinKernel`
     - **Type:** `plist string`
     - **Failsafe:** Empty
     - **Description:** Adds kernel extension on specified macOS version or newer.
     
-    Note: Refer to the [Add MaxKernel]({%link docs/Kernel/add.md}) description for matching logic.
+    Note: Refer to the [Add MaxKernel]({%link docs/Kernel/add.md %}) description for matching logic.
 
 9. `PlistPath`
     - **Type:** `plist string`

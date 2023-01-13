@@ -57,14 +57,14 @@ nav_order: 7
     - **Failsafe:** Empty
     - **Description:** Patches data on specified macOS version or older.
     
-    Note: Refer to the [Add MaxKernel]({%link docs/Kernel/add.md}) description for matching logic.
+    Note: Refer to the [Add MaxKernel]({%link docs/Kernel/add.md %}) description for matching logic.
 
 11. `MinKernel`
     - **Type:** `plist string`
     - **Failsafe:** Empty
     - **Description:** Patches data on specified macOS version or newer.
     
-    Note: Refer to the [Add MaxKernel]({%link docs/Kernel/add.md}) description for matching logic.
+    Note: Refer to the [Add MaxKernel]({%link docs/Kernel/add.md %}) description for matching logic.
 
 12. `Replace`
     - **Type:** `plist data`

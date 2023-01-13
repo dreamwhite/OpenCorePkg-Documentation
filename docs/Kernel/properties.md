@@ -12,7 +12,7 @@ nav_order: 2
     - **Failsafe:** Empty
     - **Description:** Load selected kernel extensions (kexts) from the `OC/Kexts` directory.
     
-    To be filled with `plist dict` values, describing each kext. Refer to the [Add Properties]({%link docs/Kernel/add.md}) section below for details.
+    To be filled with `plist dict` values, describing each kext. Refer to the [Add Properties]({%link docs/Kernel/add.md %}) section below for details.
     
     _Note 1:_ The load order is based on the order in which the kexts appear in the array. Hence, dependencies must
     appear before kexts that depend on them.
@@ -26,18 +26,18 @@ nav_order: 2
     - **Failsafe:** Empty
     - **Description:** Remove selected kernel extensions (kexts) from the prelinked kernel.
     
-    To be filled with `plist dictionary` values, describing each blocked kext. Refer to the [Block Properties]({%link docs/Kernel/block.md}) section below for details.
+    To be filled with `plist dictionary` values, describing each blocked kext. Refer to the [Block Properties]({%link docs/Kernel/block.md %}) section below for details.
 
 3. `Emulate`
     - **Type:** `plist dict`
-    - **Description:** Emulate certain hardware in kernelspace via parameters described in the [Emulate Properties]({%link docs/Kernel/emulate.md}) section below.
+    - **Description:** Emulate certain hardware in kernelspace via parameters described in the [Emulate Properties]({%link docs/Kernel/emulate.md %}) section below.
 
 4. `Force`
     - **Type:** `plist array`
     - **Failsafe:** Empty
     - **Description:** Load kernel extensions (kexts) from the system volume if they are not cached.
     
-    To be filled with `plist dict` values, describing each kext. Refer to the [Force Properties]({%link docs/Kernel/force.md}) section below for details.
+    To be filled with `plist dict` values, describing each kext. Refer to the [Force Properties]({%link docs/Kernel/force.md %}) section below for details.
     This section resolves the problem of injecting kexts that depend on other kexts, which are not otherwise cached.
     The issue typically affects older operating systems, where various dependency kexts, such as `IOAudioFamily` or `IONetworkingFamily` may not be present in the kernel cache by default.
 
@@ -54,12 +54,12 @@ nav_order: 2
     - **Failsafe:** Empty
     - **Description:** Perform binary patches in kernel and drivers prior to driver addition and removal.
     
-    To be filled with `plist dictionary` values, describing each patch. Refer to the [Patch Properties]({%link docs/Kernel/patch.md}) section below for details.
+    To be filled with `plist dictionary` values, describing each patch. Refer to the [Patch Properties]({%link docs/Kernel/patch.md %}) section below for details.
 
 6. `Quirks`
     - **Type:** `plist dict`
-    - **Description:** Apply individual kernel and driver quirks described in the [Quirks Properties]({%link docs/Kernel/quirks.md}) section below.
+    - **Description:** Apply individual kernel and driver quirks described in the [Quirks Properties]({%link docs/Kernel/quirks.md %}) section below.
 
 7. `Scheme`
     - **Type:** `plist dict`
-    - **Description:** Define kernelspace operation mode via parameters described in the [Scheme Properties]({%link docs/Kernel/scheme.md}) section below.
+    - **Description:** Define kernelspace operation mode via parameters described in the [Scheme Properties]({%link docs/Kernel/scheme.md %}) section below.
