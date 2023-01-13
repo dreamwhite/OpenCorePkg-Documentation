@@ -31,7 +31,7 @@ nav_order: 2
 
 5. `Security`
     **Type:** `plist dict`
-    **Description:** Apply the security configuration described in the [Security Properties](({%link docs/Misc/security.md %})) section below.
+    **Description:** Apply the security configuration described in the [Security Properties]({%link docs/Misc/security.md %}) section below.
 
 6. `Serial`
     - **Type:** `plist dict`
