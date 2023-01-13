@@ -272,4 +272,4 @@ nav_order: 5
     
     When this happens, either reinstall the operating system or copy the manifests (files with `.im4m` extension, such as `boot.efi.j137.im4m`) from `/usr/standalone/i386` to `/Volumes/Preboot/<UUID>/System/Library/CoreServices`. Here, `<UUID>` is the system volume identifier. On HFS+ installations, the manifests should be copied to `/System/Library/CoreServices` on the system volume.
 
-    For more details on how to configure Apple Secure Boot with UEFI Secure Boot, refer to the [UEFI Secure Boot]({%link docs/troubleshooting/uefi_and_secure_boot.md %}) section.
+    For more details on how to configure Apple Secure Boot with UEFI Secure Boot, refer to the [UEFI Secure Boot]({%link docs/Troubleshooting/uefi_and_secure_boot.md %}) section.
