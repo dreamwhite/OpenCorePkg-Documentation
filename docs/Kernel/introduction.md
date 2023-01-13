@@ -2,6 +2,7 @@
 layout: default
 title: Kernel
 nav_order: 7
+parent: Kernel
 ---
 
 # Introduction
