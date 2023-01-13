@@ -1,8 +1,9 @@
 ---
 layout: default
-title: Misc
+title: OpenCanopy
 nav_order: 8
 has_children: true
+parent: UEFI
 ---
 
 # Introduction

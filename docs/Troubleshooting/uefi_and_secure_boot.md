@@ -1,8 +1,9 @@
 ---
 layout: default
-title: Misc
+title: UEFI and Secure Boot
 nav_order: 8
 has_children: true
+parent: Troubleshooting
 ---
 
 # Introduction
