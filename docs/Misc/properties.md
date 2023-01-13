@@ -37,7 +37,7 @@ nav_order: 2
     - **Type:** `plist dict`
     - **Description:** Perform serial port initialisation and configure PCD values required by `BaseSerialPortLib16550`
 
-    for serial ports to properly function. Values are listed and described in the [Serial Properties]({%link docs/Misc/serial.md %}) and [Serial Custom Properties]({%link docs/Misc/serial.md#Custom %}) section below.
+    for serial ports to properly function. Values are listed and described in the [Serial Properties]({%link docs/Misc/serial.md %}) and [Serial Custom Properties]({%link docs/Misc/serial.md %}) section below.
 
     By enabling `Init`, this section ensures that the serial port is initialised when it is not done by firmware. In order for OpenCore to print logs to the serial port, bit `3` (i.e. serial logging) for `Target` under section `Misc->Debug` must be set.
 
