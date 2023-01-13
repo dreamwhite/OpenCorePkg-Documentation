@@ -17,8 +17,8 @@ nav_order: 2
     - **Failsafe:** Empty
     - **Description:** Perform binary patches in booter.
     
-    To be filled with `plist dictionary` values, describing each patch. Refer to the [Patch Properties](/docs/Booter/patch.md) section below for details.
+    To be filled with `plist dictionary` values, describing each patch. Refer to the [Patch Properties]({% link docs/Booter/patch.md %}) section below for details.
 
 3. `Quirks`
     - **Type:** `plist dict`
-    - **Description:** Apply individual booter quirks described in the [Quirks Properties](/docs/Booter/quirks.md) section below.
+    - **Description:** Apply individual booter quirks described in the [Quirks Properties]({% link docs/Booter/quirks.md %}) section below.
