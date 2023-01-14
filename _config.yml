@@ -1,6 +1,7 @@
 title: OpenCore Configuration
 description: A GitHub Pages hosted website that mirrors OpenCorePkg Configuration.pdf
 theme: just-the-docs
+color_scheme: dark
 
 url: https://dreamwhite.github.io/OpenCorePkg-Docs
 
