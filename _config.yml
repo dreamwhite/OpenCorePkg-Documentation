@@ -7,4 +7,4 @@ url: https://dreamwhite.github.io/OpenCorePkg-Docs
 
 aux_links:
   Original Configuration.pdf: https://github.com/acidanthera/OpenCorePkg/blob/master/Docs/Configuration.pdf
-  Turn on the lights: javascript:(alert('Ciao!');)
+  Turn on the lights: javascript:(function()%7Bif%20(jtd.getTheme()%20%3D%3D%3D%20'dark')%20%7B%0A%20%20%20%20jtd.setTheme('light')%3B%0A%7D%20else%20%7B%0A%20%20%20%20jtd.setTheme('dark')%3B%0A%7D%7D)()%3B
