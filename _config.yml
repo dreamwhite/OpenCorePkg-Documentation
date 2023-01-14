@@ -7,3 +7,4 @@ url: https://dreamwhite.github.io/OpenCorePkg-Docs
 
 aux_links:
   Original Configuration.pdf: https://github.com/acidanthera/OpenCorePkg/blob/master/Docs/Configuration.pdf
+  Turn on the lights: javascript:(function()%7Bconst%20toggleDarkMode%20%3D%20document.querySelector('.js-toggle-dark-mode')%3B%0A%0Ajtd.addEvent(toggleDarkMode%2C%20'click'%2C%20function()%7B%0A%20%20if%20(jtd.getTheme()%20%3D%3D%3D%20'dark')%20%7B%0A%20%20%20%20jtd.setTheme('light')%3B%0A%20%20%20%20toggleDarkMode.textContent%20%3D%20'Preview%20dark%20color%20scheme'%3B%0A%20%20%7D%20else%20%7B%0A%20%20%20%20jtd.setTheme('dark')%3B%0A%20%20%20%20toggleDarkMode.textContent%20%3D%20'Return%20to%20the%20light%20side'%3B%0A%20%20%7D%0A%7D)%3B%7D)()%3B
