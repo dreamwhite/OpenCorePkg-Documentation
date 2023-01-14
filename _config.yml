@@ -7,4 +7,4 @@ url: https://dreamwhite.github.io/OpenCorePkg-Docs
 
 aux_links:
   Original Configuration.pdf: https://github.com/acidanthera/OpenCorePkg/blob/master/Docs/Configuration.pdf
-  Turn on the lights: javascript:(alert("Ciao!");)
+  Turn on the lights: javascript:(alert('Ciao!');)
