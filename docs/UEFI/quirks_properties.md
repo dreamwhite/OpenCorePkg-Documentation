@@ -1,11 +1,10 @@
 ---
 layout: default
-title: Audio
-nav_order: 8
-has_children: true
+title: Quirks Properties
+nav_order: 18
 parent: UEFI
 ---
 
-# Introduction
+# Quirks Properties
 
 This page is under construction

@@ -1,11 +1,10 @@
 ---
 layout: default
-title: Audio
-nav_order: 8
-has_children: true
+title: OpenLinuxBoot
+nav_order: 6
 parent: UEFI
 ---
 
-# Introduction
+# OpenLinuxBoot
 
 This page is under construction

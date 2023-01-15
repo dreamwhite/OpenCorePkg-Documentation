@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Tools and Applications
-nav_order: 3
+title: Input Properties
+nav_order: 15
 parent: UEFI
 ---
 
-# Tools and Applications
+# Input Properties
 
 This page is under construction

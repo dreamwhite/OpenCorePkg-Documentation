@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Tools and Applications
-nav_order: 3
+title: AppleInput Properties
+nav_order: 12
 parent: UEFI
 ---
 
-# Tools and Applications
+# AppleInput Properties
 
 This page is under construction

@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Tools and Applications
-nav_order: 3
+title: OpenVariableRuntimeDxe
+nav_order: 9
 parent: UEFI
 ---
 
-# Tools and Applications
+# OpenVariableRuntimeDxe
 
 This page is under construction

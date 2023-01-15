@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Tools and Applications
-nav_order: 3
+title: Audio Properties
+nav_order: 13
 parent: UEFI
 ---
 
-# Tools and Applications
+# Audio Properties
 
 This page is under construction

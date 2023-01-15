@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Tools and Applications
-nav_order: 3
+title: APFS Properties
+nav_order: 11
 parent: UEFI
 ---
 
-# Tools and Applications
+# APFS Properties
 
 This page is under construction

@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Tools and Applications
-nav_order: 3
+title: Properties
+nav_order: 10
 parent: UEFI
 ---
 
-# Tools and Applications
+# Properties
 
 This page is under construction
