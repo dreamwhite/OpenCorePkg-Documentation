@@ -69,4 +69,4 @@ nav_order: 7
     - **Type:** `plist boolean`
     - **Failsafe:** `false`
     - **Description:** Run the entry in text mode instead of graphics mode.
-    This setting may be beneficial for some older tools that require text output as all the tools are launched in graphics mode by default. Refer to the [Output Properties]({%link docs/UEFI/input.md %}) section below for information on text modes.
+    This setting may be beneficial for some older tools that require text output as all the tools are launched in graphics mode by default. Refer to the [Output Properties]({%link docs/UEFI/input_properties.md %}) section below for information on text modes.
