@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Generic
+title: Introduction
 parent: PlatformInfo
 nav_order: 0
 ---
