@@ -1,10 +1,10 @@
 ---
 layout: default
-title: PlatformNVRAM
+title: SMBIOS Properties
 parent: PlatformInfo
-nav_order: 5
+nav_order: 6
 ---
 
-# PlatformNVRAM Properties
+# SMBIOS Properties
 
 This page is under construction

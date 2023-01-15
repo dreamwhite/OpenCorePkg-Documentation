@@ -1,10 +1,10 @@
 ---
 layout: default
-title: PlatformNVRAM
+title: Memory Properties
 parent: PlatformInfo
-nav_order: 5
+nav_order: 4
 ---
 
-# PlatformNVRAM Properties
+# Memory Properties
 
 This page is under construction

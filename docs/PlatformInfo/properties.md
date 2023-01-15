@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Generic
+title: Properties
 parent: PlatformInfo
-nav_order: 2
+nav_order: 1
 ---
 
-# Generic
+# Properties
 
 This page is under construction

@@ -1,10 +1,10 @@
 ---
 layout: default
-title: PlatformNVRAM
+title: DataHub Properties
 parent: PlatformInfo
-nav_order: 5
+nav_order: 3
 ---
 
-# PlatformNVRAM Properties
+# DataHub Properties
 
 This page is under construction
