@@ -166,7 +166,7 @@ nav_order: 3
     **Description:** Enable screen reader by default in the OpenCore picker.
     For the macOS bootloader, screen reader preference is set in the `preferences.efires` archive in the `isVOEnabled.int32` file and is controlled by the operating system. For OpenCore screen reader support, this option is an independent equivalent. Toggling screen reader support in both the OpenCore picker and the macOS bootloader FileVault 2 login window can also be done by using the `Command + F5` key combination.
     
-    _Note:_ The screen reader requires working audio support. Refer to the [UEFI Audio Properties]({%link docs/UEFI/audio.md %}) section for details.
+    _Note:_ The screen reader requires working audio support. Refer to the [UEFI Audio Properties]({%link docs/UEFI/audio_properties.md %}) section for details.
 
 9. `PollAppleHotKeys`
     **Type:** `plist boolean`
