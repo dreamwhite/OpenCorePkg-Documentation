@@ -1,10 +1,10 @@
 ---
 layout: default
-title: PlatformNVRAM Properties
+title: Generic Properties
 parent: PlatformInfo
-nav_order: 5
+nav_order: 2
 ---
 
-# PlatformNVRAM Properties
+# Generic Properties
 
 This page is under construction
