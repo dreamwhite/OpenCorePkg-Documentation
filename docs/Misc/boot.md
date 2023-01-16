@@ -56,7 +56,7 @@ nav_order: 3
 
 3. `HibernateSkipsPicker`
     **Type:** `plist boolean`
-    **Failsafe:** false
+    **Failsafe:** `false`
     **Description:** Do not show picker if waking from macOS hibernation.
 
     Limitations:
@@ -67,7 +67,7 @@ nav_order: 3
 
 4. `HideAuxiliary`
     **Type:** `plist boolean`
-    **Failsafe:** false
+    **Failsafe:** `false`
     **Description:** Set to `true` to hide auxiliary entries from the picker menu.
 
     An entry is considered auxiliary when at least one of the following applies:
@@ -162,7 +162,7 @@ nav_order: 3
 
 8. `PickerAudioAssist`
     **Type:** `plist boolean`
-    **Failsafe:** false
+    **Failsafe:** `false`
     **Description:** Enable screen reader by default in the OpenCore picker.
     For the macOS bootloader, screen reader preference is set in the `preferences.efires` archive in the `isVOEnabled.int32` file and is controlled by the operating system. For OpenCore screen reader support, this option is an independent equivalent. Toggling screen reader support in both the OpenCore picker and the macOS bootloader FileVault 2 login window can also be done by using the `Command + F5` key combination.
     

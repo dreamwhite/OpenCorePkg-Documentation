@@ -9,7 +9,7 @@ nav_order: 1
 
 1. `Automatic`
     - **Type:** `plist boolean`
-    - **Failsafe:** false
+    - **Failsafe:** `false`
     - **Description:** Generate PlatformInfo based on the `Generic` section instead of using values from the `DataHub`, `NVRAM`, and `SMBIOS` sections.
     
     Enabling this option is useful when Generic section is flexible enough:
@@ -59,7 +59,7 @@ nav_order: 1
 
 7. `UseRawUuidEncoding`
     - **Type:** `plist boolean`
-    - **Failsafe:** false
+    - **Failsafe:** `false`
     - **Description:** Use raw encoding for SMBIOS UUIDs.
 
     Each UUID `AABBCCDD-EEFF-GGHH-IIJJ-KKLLMMNNOOPP` is essentially a hexadecimal 16-byte number. It can be encoded in two ways:
