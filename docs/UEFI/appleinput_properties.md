@@ -34,7 +34,6 @@ parent: UEFI
     The Apple OEM default value is `50` (500ms).
     
     _Note 1:_ On systems not using `KeySupport`, this setting may be freely used to configure key repeat behaviour.
-    
     _Note 2:_ On systems using `KeySupport`, but which do not show the ‘two long delays’ behavior (see Note `3`) and/or which always show a solid ‘set default’ indicator (see `KeyForgetThreshold`) then this setting may also be freely used to configure key repeat initial delay behaviour, except that it should never be set to less than `KeyForgetThreshold` to avoid uncontrolled key repeats.
     
     _Note 3:_ On some systems using `KeySupport`, you may find that you see one additional slow key repeat before normal speed key repeat starts, when holding a key down. If so, you may wish to configure `KeyInitialDelay` and `KeySubsequentDelay` according to the instructions at Note `3` of `KeySubsequentDelay`.
@@ -46,9 +45,7 @@ parent: UEFI
     The Apple OEM default value is `5` (50ms). `0` is an invalid value for this option (will issue a debug log warning and use `1` instead).
     
     _Note 1:_ On systems not using `KeySupport`, this setting may be freely used to configure key repeat behaviour.
-    
     _Note 2:_ On systems using `KeySupport`, but which do not show the ‘two long delays’ behaviour (see Note `3`) and/or which always show a solid ‘set default’ indicator (see KeyForgetThreshold) (which should apply to many/most systems using  `AMI KeySupport` mode) then this setting may be freely used to configure key repeat subsequent delay behaviour, except that it should never be set to less than KeyForgetThreshold to avoid uncontrolled key repeats.
-    
     _Note 3:_ On some systems using `KeySupport`, particularly `KeySupport` in non-AMI mode, you may find that after configuring `KeyForgetThreshold` you get one additional slow key repeat before normal speed key repeat starts, when holding a key down. On systems where this is the case, it is an unavoidable artefect of using `KeySupport` to emulate raw keyboard data, which is not made available by UEFI. While this ‘two long delays’ issue has minimal effect on overall usability, nevertheless you may wish to resolve it, and it is possible to do so as follows:
 
     - Set `CustomDelays` to `true`

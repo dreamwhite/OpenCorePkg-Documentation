@@ -33,11 +33,9 @@ In order to allow changes to NVRAM within macOS to be captured and saved, an add
 An example of such script can be found in [Utilities/LogoutHook/Launchd.command](https://github.com/acidanthera/OpenCorePkg/tree/master/Utilities/LogoutHook/Launchd.command).
 
 _Note 1:_ This driver requires working FAT write support in firmware, and sufficient free space on the OpenCore EFI partition for up to three saved NVRAM files.
-
 _Note 2:_ The `nvram.plist` (and `nvram.fallback` if present) files must have a root `plist dictionary` type and contain two fields:
     - `Version` — `plist integer`, file version, must be set to `1`.
     - `Add` — `plist dictionary`, equivalent to `Add` from `config.plist`.
-
 _Note 3:_ When setting up legacy NVRAM, it can be convenient to set `<string>*</string>` as the value for the following three GUID keys in `LegacySchema`:
 
 - `36C28AB5-6566-4C50-9EBD-CBB920F83843`

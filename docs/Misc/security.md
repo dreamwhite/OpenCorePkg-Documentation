@@ -177,8 +177,6 @@ nav_order: 5
     ```
 
     _Note 1:_ While it may appear obvious, an external method is required to verify `OpenCore.efi` and `BOOTx64.efi` for secure boot path. For this, it is recommended to enable UEFI SecureBoot using a custom certificate and to sign `OpenCore.efi` and `BOOTx64.efi` with a custom key. More details on customising secure boot on modern firmware can be found in the [Taming UEFI SecureBoot](https://habr.com/post/273497/) paper (in Russian).
-    55
-
     _Note 2:_ Regardless of this option, `vault.plist` is always used when present, and both `vault.plist` and `vault.sig` are used and required when a public key is embedded into OpenCore.efi, and errors will abort the boot process in either case. Setting this option allows OpenCore to warn the user if the configuration is not as required to achieve an expected higher security level.
 
 12. `ScanPolicy`

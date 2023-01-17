@@ -106,13 +106,10 @@ parent: UEFI
     - `BAR1` supports sizes from 2 MB to 256 MB. Its value is 256 MB.
 
     _Example 1:_ Setting `ResizeGpuBars` to 1 GB will change `BAR0` to 1 GB and leave `BAR1` unchanged.
-    
     _Example 2:_ Setting `ResizeGpuBars` to 1 MB will change `BAR0` to 256 MB and `BAR0` to 2 MB.
-    
     _Example 3:_ Setting `ResizeGpuBars` to 16 GB will change `BAR0` to 8 GB and leave `BAR1` unchanged.
 
     _Note 1:_ This quirk shall not be used to workaround macOS limitation to address BARs over 1 GB. `ResizeAppleGpuBars` should be used instead.
-    
     _Note 2:_ While this quirk can increase GPU PCI BAR sizes, this will not work on most firmware as is, because the quirk does not relocate BARs in memory, and they will likely overlap. Contributions to improve this feature are welcome.
 
 13. `TscSyncTimeout`

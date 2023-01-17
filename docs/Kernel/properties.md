@@ -16,9 +16,7 @@ nav_order: 2
     
     _Note 1:_ The load order is based on the order in which the kexts appear in the array. Hence, dependencies must
     appear before kexts that depend on them.
-
     _Note 2:_ To track the dependency order, inspect the `OSBundleLibraries` key in the `Info.plist` file of the kext being added. Any kext included under the key is a dependency that must appear before the kext being added.
-    
     _Note 3:_ Kexts may have inner kexts (`Plugins`) included in the bundle. Such `Plugins` must be added separately and follow the same global ordering rules as other kexts.
 
 2. `Block`

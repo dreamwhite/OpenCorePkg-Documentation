@@ -35,7 +35,6 @@ parent: UEFI
     - **Description:** Replaces the Apple EFI Graphics 2 protocol with a builtin version.
 
     _Note 1:_ This protocol allows newer `EfiBoot` versions (at least 10.15) to expose screen rotation to macOS. Refer to `ForceDisplayRotationInEFI` variable description on how to set screen rotation angle.
-
     _Note 2:_ On systems without native support for `ForceDisplayRotationInEFI`, `DirectGopRendering=true` is also required for this setting to have an effect.
 
 5. `AppleFramebufferInfo`
@@ -96,6 +95,7 @@ parent: UEFI
     - **Type:** `plist boolean`
     - **Failsafe:** `false`
     - **Description:** Replaces the Device Property protocol with a builtin version. This may be used to ensure full compatibility on VMs and legacy Macs.
+    
     _Note:_ This will discard all previous entries if the protocol was already installed, so all properties required for safe operation of the system must be specified in the configuration file.
 
 15. `FirmwareVolume`
