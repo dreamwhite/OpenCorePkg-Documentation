@@ -7,12 +7,11 @@ nav_order: 0
 ![](https://github.com/acidanthera/OpenCorePkg/raw/master/Docs/Logos/Logo.png){: width="500" height="500" }
 {: refdef}
 
+{:refdef: style="text-align: center;"}
 # OpenCore
-{: style="text-align: center;"}
 ## Reference Manual (0.8.8)
-{: style="text-align: center;"}
 ### [2022.12.25]
-{: style="text-align: center;"}
+{: refdef}
 
-
+<br>
 This website aims to give a better readable version of [OpenCorePkg Configuration.pdf](https://github.com/acidanthera/OpenCorePkg/blob/master/Docs/Configuration.pdf)
