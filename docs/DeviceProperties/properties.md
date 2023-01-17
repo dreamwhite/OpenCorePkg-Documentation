@@ -14,6 +14,7 @@ nav_order: 2
     - **Description:** Sets device properties from a map (`plist dict`) of device paths to a map (`plist dict`) of variable names and their values in `plist multidata` format.
 
     _Note 1:_ Device paths must be provided in canonic string format (e.g. `PciRoot(0x0)/Pci(0x1,0x0)/Pci(0x0,0x0)`).
+    
     _Note 2:_ Existing properties will not be changed unless deleted in the `DeviceProperties Delete` section.
 
 2. `Delete`

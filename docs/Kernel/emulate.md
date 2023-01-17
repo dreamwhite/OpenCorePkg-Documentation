@@ -18,7 +18,9 @@ nav_order: 5
         - Enabling XCPM support for an unsupported CPU variant.
     
     _Note 1:_ It may also be the case that the CPU model is supported but there is no power management supported (e.g. virtual machines). In this case, `MinKernel` and `MaxKernel` can be set to restrict CPU virtualisation and dummy power management patches to the particular macOS kernel version.
+    
     _Note 2:_ Only the value of `EAX`, which represents the full CPUID, typically needs to be accounted for and remaining bytes should be left as zeroes. The byte order is Little Endian. For example, `C3 06 03 00` stands for CPUID `0x0306C3` (Haswell).
+    
     _Note 3:_ For XCPM support it is recommended to use the following combinations. Be warned that one is required to set the correct [frequency vectors](https://github.com/dortania/bugtracker/issues/190) matching the installed CPU.
 
     - Haswell-E (`0x0306F2`) to Haswell (`0x0306C3`):

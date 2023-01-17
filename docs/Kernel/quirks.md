@@ -92,6 +92,7 @@ nav_order: 8
     - **Description:** Disables `IOMapper` support in XNU (VT-d), which may conflict with the firmware implementation.
     
     _Note 1:_ This option is a preferred alternative to deleting `DMAR` ACPI table and disabling VT-d in firmware preferences, which does not obstruct VT-d support in other systems in case they need this.
+    
     _Note 2:_ Misconfigured IOMMU in the firmware may result in broken devices such as ethernet or Wi-Fi adapters. For instance, an ethernet adapter may cycle in link-up link-down state infinitely and a Wi-Fi adapter may fail to discover networks. Gigabyte is one of the most common OEMs with these issues.
 
 8. `DisableLinkeditJettison`

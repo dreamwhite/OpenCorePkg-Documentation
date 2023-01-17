@@ -68,6 +68,7 @@ nav_order: 4
     When multiple ones are selected, comma (`,`) should be used as the splitter. For instance, `+OCCPU,OCA,OCB` means only `OCCPU`, `OCA`, `OCB` being printed, while `-OCCPU,OCA,OCB` indicates these modules being filtered out (i.e. _not_ logged). When no symbol is specified, positive filtering (`+`) will be used. `*` indicates all modules being logged.
 
     _Note 1:_ Acronyms of libraries can be found in the Libraries section below.
+    
     _Note 2:_ Messages printed before the configuration of log protocol cannot be filtered.
 
 7. `SysReport`

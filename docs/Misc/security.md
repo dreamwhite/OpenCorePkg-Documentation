@@ -14,6 +14,7 @@ nav_order: 5
     - **Description:** Allow `CTRL+Enter` and `CTRL+Index` handling to set the default boot option in the OpenCore picker.
 
     _Note 1:_ May be used in combination with `Shift+Enter` or `Shift+Index` when `PollAppleHotKeys` is enabled.
+    
     _Note 2:_ In order to support systems with unresponsive modifiers during preboot (which includes `V1` and `V2` `KeySupport` mode on some firmware) OpenCore also allows holding the `=/+` key in order to trigger ‘set default’ mode.
 
 2. `ApECID`
@@ -127,6 +128,7 @@ nav_order: 5
     - **Description:** EDK II debug level bitmask (sum) causing CPU to halt (stop execution) after obtaining a message of `HaltLevel`. Possible values match `DisplayLevel` values.
     
     _Note 1:_ A halt will only occur if bit 0 (i.e. enable logging) for Target under section Misc->Debug is set.
+    
     _Note 2:_ A halt will only occur after the configuration is loaded and logging is configured. If any log messages occur at the specified halt level in early log (i.e. before this), they will cause a halt when they are flushed to the log once it has been configured.
 
 9. `PasswordHash`
@@ -177,6 +179,7 @@ nav_order: 5
     ```
 
     _Note 1:_ While it may appear obvious, an external method is required to verify `OpenCore.efi` and `BOOTx64.efi` for secure boot path. For this, it is recommended to enable UEFI SecureBoot using a custom certificate and to sign `OpenCore.efi` and `BOOTx64.efi` with a custom key. More details on customising secure boot on modern firmware can be found in the [Taming UEFI SecureBoot](https://habr.com/post/273497/) paper (in Russian).
+    
     _Note 2:_ Regardless of this option, `vault.plist` is always used when present, and both `vault.plist` and `vault.sig` are used and required when a public key is embedded into OpenCore.efi, and errors will abort the boot process in either case. Setting this option allows OpenCore to warn the user if the configuration is not as required to achieve an expected higher security level.
 
 12. `ScanPolicy`

@@ -145,6 +145,7 @@ parent: UEFI
     - `0` — automatically chooses scaling based on the current resolution.
 
     _Note 1:_ Automatic scale factor detection works on the basis of total pixel area and may fail on small HiDPI displays, in which case the value may be manually managed using the NVRAM section.
+    
     _Note 2:_ When switching from manually specified NVRAM variable to this preference an NVRAM reset may be needed.
 
 15. `UgaPassThrough`

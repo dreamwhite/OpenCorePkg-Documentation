@@ -99,7 +99,9 @@ parent: UEFI
     All UEFI audio will use this gain setting when the system amplifier gain read from the `SystemAudioVolumeDB` NVRAM variable is higher than this. This is to avoid over-loud UEFI audio when the system volume is set very high, or the `SystemAudioVolumeDB` NVRAM value has been misconfigured.
     
     _Note 1:_ Decibels (dB) specify gain (postive values; increase in volume) or attenuation (negative values; decrease in volume) compared to some reference level. When you hear the sound level of a jet plane expressed as 120 decibels, say, the reference level is the sound level just audible to an average human. However generally in acoustic science and computer audio any reference level can be specified. Intel HDA and macOS natively use decibels to specify volume level. On most Intel HDA hardware the reference level of 0 dB is the _loudest_ volume of the hardware, and all lower volumes are therefore negative numbers. The quietest volume on typical sound hardware is around -55 dB to -60 dB.
+    
     _Note 2:_ Matching how macOS handles decibel values, this value is converted to a signed byte; therefore values outside −128 dB to +127 dB (which are well beyond physically plausible volume levels) are not allowed.
+    
     _Note 3:_ Digital audio output – which does not have a volume slider in-OS – ignores this and all other gain settings, only mute settings are relevant.
 
 7. `MinimumAssistGain`
@@ -110,6 +112,7 @@ parent: UEFI
     The screen reader will use this amplifier gain if the system amplifier gain read from the `SystemAudioVolumeDB` NVRAM variable is lower than this.
     
     _Note 1:_ In addition to this setting, because audio assist must be audible to serve its function, audio assist is not muted even if the OS sound is muted or the `StartupMute` NVRAM variable is set.
+   
     _Note 2:_ See `MaximumGain` for an explanation of decibel volume levels.
 
 8. `MinimumAudibleGain`
@@ -120,6 +123,7 @@ parent: UEFI
     The boot chime will not play if the system amplifier gain level in the `SystemAudioVolumeDB` NVRAM variable is lower than this.
     
     _Note 1:_ This setting is designed to save unecessary pauses due to audio setup at inaudible volume levels, when no sound will be heard anyway. Whether there are inaudible volume levels depends on the hardware. On some hardware (including Apple) the audio values are well enough matched to the hardware that the lowest volume levels available are very quiet but audible, whereas on some other hardware combinations, the lowest part of the volume range may not be audible at all.
+    
     _Note 2:_ See `MaximumGain` for an explanation of decibel volume levels.
 
 9. `PlayChime`
@@ -134,6 +138,7 @@ parent: UEFI
     - `Disabled` — Disables chime unconditionally.
     
     _Note 1:_ Enabled can be used separately from the StartupMute NVRAM variable to avoid conflicts when the firmware is able to play the boot chime.
+    
     _Note 2:_ Regardless of this setting, the boot chime will not play if system audio is muted, i.e. if the `SystemAudioVolume` NVRAM variable has bit 0x80 set.
 
 10. `ResetTrafficClass`

@@ -18,7 +18,9 @@ sudo bless --verbose --file /Volumes/VOLNAME/DIR/OpenShell.efi \ --folder /Volum
 ```
 
 _Note 1:_ `/System/Library/CoreServices/BridgeVersion.bin` should be copied to `/Volumes/VOLNAME/DIR`.
+
 _Note 2:_ To be able to use the `bless` command, disabling [System Integrity Protection](https://developer.apple.com/library/archive/documentation/Security/Conceptual/System_Integrity_Protection_Guide/ConfiguringSystemIntegrityProtection/ConfiguringSystemIntegrityProtection.html) is necessary.
+
 _Note 3:_ To be able to boot [Secure Boot](https://support.apple.com/HT208330) might be disabled if present.
 
 Some of the known tools are listed below (builtin tools are marked with `*`):

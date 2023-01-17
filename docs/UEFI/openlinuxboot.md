@@ -58,7 +58,9 @@ The default parameter values should work well with no changes under most circums
     The following notes apply to all of the above options:
 
     _Note 1:_ Apple filesystems APFS and HFS are never scanned.
+    
     _Note 2:_ Regardless of the above flags, a file system must first be allowed by Misc/Security/ScanPolicy before it can be seen by OpenLinuxBoot or any other OC_BOOT_ENTRY_PROTOCOL driver.
+    
     _Note 3:_ It is recommended to enable scanning `LINUX_ROOT` and `LINUX_DATA` in both OpenLinuxBoot flags and `Misc/Security/ScanPolicy` in order to be sure to detect all valid Linux installs, since Linux boot filesystems are very often marked as `LINUX_DATA`.
 
     * `0x00000100` (bit `8`) — `LINUX_BOOT_ALLOW_AUTODETECT`, If set allows autodetecting and linking `vmlinuz*` and `init*` ramdisk files when loader/entries files are not found.
