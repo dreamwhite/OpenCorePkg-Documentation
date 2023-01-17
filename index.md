@@ -9,8 +9,10 @@ nav_order: 0
 
 # OpenCore
 {: style="text-align: center;"}
+
 ## Reference Manual (0.8.8)
 {: style="text-align: center;"}
+
 ### [2022.12.25]
 {: style="text-align: center;"}
 
