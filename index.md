@@ -4,7 +4,7 @@ layout: home
 nav_order: 0
 ---
 
-![](https://github.com/acidanthera/OpenCorePkg/raw/master/Docs/Logos/Logo.png)
+![](https://github.com/acidanthera/OpenCorePkg/raw/master/Docs/Logos/Logo.png){: width="160" height="160" }
 
 # OpenCore
 ## Reference Manual (0.8.8)
