@@ -14,4 +14,5 @@ nav_order: 0
 ### [2022.12.25]
 {: style="text-align: center;"}
 
+
 This website aims to give a better readable version of [OpenCorePkg Configuration.pdf](https://github.com/acidanthera/OpenCorePkg/blob/master/Docs/Configuration.pdf)
