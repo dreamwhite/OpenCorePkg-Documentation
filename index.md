@@ -4,9 +4,10 @@ layout: home
 nav_order: 0
 ---
 
-![](https://github.com/acidanthera/OpenCorePkg/raw/master/Docs/Logos/Logo.png){: width="160" height="160" }
+![](https://github.com/acidanthera/OpenCorePkg/raw/master/Docs/Logos/Logo.png){: width="500" height="500" }
 
 # OpenCore
+{: style="text-align: center;"}
 ## Reference Manual (0.8.8)
 ### [2022.12.25]
 
