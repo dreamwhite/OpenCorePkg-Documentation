@@ -10,25 +10,25 @@ nav_order: 9
 These properties are particularly relevant for older macOS operating systems. Refer to the Legacy Apple OS section for details on how to install and troubleshoot such macOS installations.
 
 1. `CustomKernel`
-    **Type:** `plist boolean`
-    **Failsafe:** `false`
-    **Description:** Use customised kernel cache from the `Kernels` directory located at the root of the ESP partition.
+    - **Type:** `plist boolean`
+    - **Failsafe:** `false`
+    - **Description:** Use customised kernel cache from the `Kernels` directory located at the root of the ESP partition.
     
     Unsupported platforms including `Atom` and `AMD` require modified versions of XNU kernel in order to boot. This option provides the possibility to using a customised kernel cache which contains such modifications from ESP partition.
 
 2. `FuzzyMatch`
-    **Type:** `plist boolean`
-    **Failsafe:** `false`
-    **Description:** Use `kernelcache` with different checksums when available.
+    - **Type:** `plist boolean`
+    - **Failsafe:** `false`
+    - **Description:** Use `kernelcache` with different checksums when available.
     
     On macOS 10.6 and earlier, `kernelcache` filename has a checksum, which essentially is `adler32` from SMBIOS product name and EfiBoot device path. On certain firmware, the EfiBoot device path differs between UEFI and macOS due to ACPI or hardware specifics, rendering `kernelcache` checksum as always different.
     
     This setting allows matching the latest `kernelcache` with a suitable architecture when the `kernelcache` without suffix is unavailable, improving macOS 10.6 boot performance on several platforms.
 
 3. `KernelArch`
-    **Type:** `plist string`
-    **Failsafe:** `Auto` (Choose the preferred architecture automatically)
-    **Description:** Prefer specified kernel architecture (`i386`, `i386-user32`, `x86_64`) when available.
+    - **Type:** `plist string`
+    - **Failsafe:** `Auto` (Choose the preferred architecture automatically)
+    - **Description:** Prefer specified kernel architecture (`i386`, `i386-user32`, `x86_64`) when available.
 
     On macOS 10.7 and earlier, the XNU kernel can boot with architectures different from the usual `x86_64`. This setting will use the specified architecture to boot macOS when it is supported by the macOS and the configuration:
 
@@ -72,9 +72,9 @@ These properties are particularly relevant for older macOS operating systems. Re
     Note: `3+2` and `6+4` hotkeys to choose the preferred architecture are unsupported as they are handled by EfiBoot and hence, difficult to detect.
 
 4. `KernelCache`
-    **Type:** `plist string`
-    **Failsafe:** `Auto`
-    **Description:** Prefer specified kernel cache type (`Auto`, `Cacheless`, `Mkext`, `Prelinked`) when available.
+    - **Type:** `plist string`
+    - **Failsafe:** `Auto`
+    - **Description:** Prefer specified kernel cache type (`Auto`, `Cacheless`, `Mkext`, `Prelinked`) when available.
 
     Different variants of macOS support different kernel caching variants designed to improve boot performance. This setting prevents the use of faster kernel caching variants if slower variants are available for debugging and stability reasons. That is, by specifying `Mkext`, `Prelinked` will be disabled for e.g. 10.6 but not for 10.7.
     The list of available kernel caching types and its current support in OpenCore is listed below.
